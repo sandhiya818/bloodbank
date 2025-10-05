@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+/* ===========
+==== FORM
+=========== */
+
+.form-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* =============
+====== laoder 
+=============== */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================
+--------- navbar 
+=================== */
+
+.navbar {
+  background-color: black !important;
+  color: white !important;
+}
+.nav-link,
+.navbar-brand {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* ======================
+--------- custom styles 
+=================== */
+/* Style for the quotes */
+.q, .q center {
+  font-size: 24px; /* Bigger font size for quotes */
+  font-style: italic;
+  color: #ff4500; /* Orange-red color for the quotes */
+  font-family: 'Courier New', Courier, monospace; /* Different font style */
+  background-color: white; /* White background for quotes */
+  padding: 10px; /* Padding around the quotes */
+  border-left: 5px solid #ff4500; /* Left border color for quotes */
+  border-right: 5px solid #ff4500; /* Right border color for quotes */
+  margin: 20px 0; /* Margin for spacing */
+  text-align: center; /* Center align text */
+}
+
+/* Style for the paragraph */
+p {
+  font-size: 20px; /* Bigger font size for paragraph */
+  line-height: 1.4; /* Better readability */
+  color: #333; /* Darker color for the paragraph */
+  font-family: 'Arial', sans-serif; /* Font style for paragraph */
+}
